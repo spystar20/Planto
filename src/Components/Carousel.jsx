@@ -38,12 +38,12 @@ const Carousel = () => {
         <div className="embla__viewport" ref={emblaRef}>
 <div className='self-center w-full embla__container'>
    <div  className='embla__slide relative h-[800px] md:h-[490px] my-12 w-full rounded-[40px] bg-white/5 backdrop-blur-xl border-2 border-white/10 grid grid-cols-1 md:grid-cols-2 px-3 md:px-6'>
-<div className='relative flex  '>
-    <img className='md:absolute -left-12 -top-1/5  z-10 ' src={HeroCard} alt="" />
+<div className='relative lg:flex  '>
+    <img className='lg:absolute  -left-12 -top-1/5  z-10 ' src={HeroCard} alt="" />
 </div>
-<div className=' p-8 text-white/70 gap-4 md:gap-8  flex flex-col items-start justify-center w-full'>
+<div className=' p-8 text-white/70 gap-4 lg:gap-8  flex flex-col items-start justify-center w-full'>
 
-   <h2 className='md:text-4xl text-xl font-medium  '>We Have Small And Best O2 Plants Collection’s</h2>
+   <h2 className='lg::text-4xl text-xl font-medium  '>We Have Small And Best O2 Plants Collection’s</h2>
        <p className='text-lg max-w-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
        <p className='text-lg max-w-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       
@@ -66,13 +66,14 @@ const Carousel = () => {
 </div>
                     </div>
                     
-                     <div  className='embla__slide relative h-[840px] md:h-[490px] my-12 w-full rounded-[40px] bg-white/5 backdrop-blur-xl border-2 border-white/10 grid grid-cols-1 md:grid-cols-2 px-3 md:px-6' >
-                        <div className='relative'>
-    <img className='md:absolute -left-12 -top-[31%]  z-10 ' src={Card4} alt="" />
-</div>
-<div className=' p-8 text-white/70 gap-8  flex flex-col items-start justify-center w-full'>
+                     <div  className='embla__slide relative h-[850px] md:h-[490px] my-12 w-full rounded-[40px] bg-white/5 backdrop-blur-xl border-2 border-white/10 grid grid-cols-1 md:grid-cols-2 px-3 md:px-6'>
 
-   <h2 className='md:text-4xl font-medium  '>We Have Small And Best O2 Plants Collection’s</h2>
+                        <div className='relative'>
+    <img className='lg:absolute -left-12  -top-[21%]  z-10 ' src={Card4} alt="" />
+</div>
+<div className=' p-8 text-white/70 gap-8 md:gap-4  flex flex-col items-start justify-center w-full'>
+
+   <h2 className='lg:text-4xl text-xl font-medium  '>We Have Small And Best O2 Plants Collection’s</h2>
        <p className='text-lg max-w-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
        <p className='text-lg max-w-lg'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
       

@@ -3,8 +3,8 @@ import Plant from '../assets/Plant.png'
 
 const Footer = () => {
   return (
-    <div className='bg-[#222c1d] w-full text-white px-6 md:px-12 py-10'>
-        <div className='grid grid-cols-1 gap-6 md:grid-cols-3'>
+    <div className='bg-[#222c1d] w-full text-white px-6 lg:px-12 py-10'>
+        <div className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3'>
 <div>
     <div className='flex items-center gap-2'>
         <img className='w-16' src={Plant} alt="" />
@@ -23,7 +23,7 @@ const Footer = () => {
 </div>
 <div className='flex flex-col gap-6'>
 <h2 className='font-bold text-xl'>For Every Update.</h2>
-<div className='border-2 border-white rounded-sm flex p-0.5 md:w-3/4 justify-between '>
+<div className='border-2 border-white rounded-sm flex p-0.5 md:w-11/12 lg:w-3/4 justify-between '>
     <input type="text" className='outline-none border-none pl-3' placeholder='Enter Email' />
     <button className='bg-white text-black rounded-sm text-base px-5 py-2'>SUBSCRIBE</button>
 </div>

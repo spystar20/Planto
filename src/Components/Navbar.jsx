@@ -7,7 +7,7 @@ import { BiMenuAltRight } from 'react-icons/bi'
 
 const Navbar = () => {
   return (
-    <div className='py-8 px-2 md:px-12  flex justify-between items-center'>
+    <div className='py-8 px-2 lg:px-12  flex justify-between items-center'>
         <div className='flex items-center gap-2'>
         <img className='w-10' src={Plant} alt="" />
         <h2 className='font-bold text-xl md:text-4xl text-white/80'>Planto.</h2>
