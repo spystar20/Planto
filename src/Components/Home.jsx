@@ -50,11 +50,11 @@ const Home = () => {
                     </div>
                     {/* right-side */}
                     <div className='mt-23 md:mt-0 w-full flex items-start justify-end'>
-                    <div  className='relative rounded-[50px] bg-white/5 backdrop-blur-xl border-2 border-white/10  flex flex-col  w-[350px] h-[450px] md:h-[350px] px-6'>
+                    <div  className='relative rounded-[50px] bg-white/5 backdrop-blur-xl border-2 border-white/10  flex flex-col  w-[350px] h-[450px] md:h-[350px] lg:h-[450px] px-6'>
 
     <img className='absolute -top-20 left-1/2 -translate-x-1/2 z-10 ' src={HeroCard} alt="" />
 
-<div className='mt-69 md:mt-45 p-4  text-white/60 gap-3  flex flex-col w-full'>
+<div className='mt-69  p-4  text-white/60 gap-3  flex flex-col w-full'>
     <h6 className='text-sm font-light'>Trendy House Plant</h6>
     <span className='flex justify-between items-center'><h2 className='text-2xl lg:text-2xl md:text-xl font-normal text-white/70 '>Calathea plant</h2><MdKeyboardArrowRight className='text-2xl text-white/50'/></span>
     <Button className='px-8 py-1.5 self-start'>Buy Now</Button>
